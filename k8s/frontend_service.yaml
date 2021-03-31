@@ -6,7 +6,7 @@ metadata:
   name: udagram-frontend-svc
   namespace: default
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: udagram-frontend
   ports:
@@ -14,4 +14,3 @@ spec:
     protocol: TCP
     port: 80
     targetPort: 80  
-  
