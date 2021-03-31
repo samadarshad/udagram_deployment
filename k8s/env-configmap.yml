@@ -7,6 +7,6 @@ data:
   JWT_SECRET: hello
   POSTGRES_DB: postgres
   POSTGRES_HOST: udagramdb.cl5acgthoh69.eu-west-2.rds.amazonaws.com
-  URL: http://localhost:8100  
+  URL: http://localhost  
 metadata:
   name: env-config
